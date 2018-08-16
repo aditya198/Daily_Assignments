@@ -1,0 +1,6 @@
+git config --global user.name "username" ->It is one time investment.It is used to give user name of a user.
+git config --global user.email "mail" ->It is one time investment.It is used to give email of a user.
+git clone "url" -> It is used to access that reposatory.
+git add -A ->It is used to add file in that reposatory.
+git commit -m "message" -> It is used to give commit.
+git push -u origin master -> It is used to upload the file in that repostory.
