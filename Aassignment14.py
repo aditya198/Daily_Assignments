@@ -8,8 +8,8 @@ print(li_sq)
 #Q2 )
 
 x=int(input("Enter the range: "))
-lst = [i for i in range(1,x) if all(i%y!=0 for y in range(2,i))]
-print(lst)
+li = [i for i in range(1,x) if all(i%y!=0 for y in range(2,i))]
+print(li)
 
 #Q.3)
 
