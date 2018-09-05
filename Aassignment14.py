@@ -39,7 +39,7 @@ def isprime(x):
         else:
             return True
 li=[15,26,33,13,53,97,22]
-a = list(filter(isprime, li))
+a=list(filter(isprime, li))
 print(a)
 
 #Q.7 )
