@@ -38,18 +38,15 @@ def isprime(x):
             return False
         else:
             return True
-
-
 li=[15,26,33,13,53,97,22]
 a = list(filter(isprime, li))
 print(a)
 
 #Q.7)
 
-lst=[5,50,15,20]
+li=[5,50,15,20]
 from functools import *
-
-x=reduce(lambda x,y:x*y,lst)
+x=reduce(lambda x,y:x*y,li)
 print(x)
 
 
