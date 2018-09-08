@@ -10,8 +10,8 @@ collection=database['student_collection']
 
 for i in range(10):
     try:
-        name=input("Enter name: ") 
-        marks=int(input('Enter  Marks: '))
+        name=input("Enter name:-") 
+        marks=int(input('Enter  Marks:-'))
         if(marks<0 or marks >100):  
             raise ValueError('Invalid entry')
             i=i-1
@@ -23,12 +23,12 @@ for i in range(10):
 for i in range(10):
     try:
         name=input("Enter name: ") 
-        marks  int(input('Enter  Marks: '))
+        marks  int(input('Enter  Marks:-'))
         if(marks<0 or marks >100):  
             raise ValueError('Invalid entry')
             i=i-1
         else:
-            collection.insert_one({'Name':name,'Marks':marks})  
+            collection.insert_one({'Name':-name,'Marks':-marks})  
             i=i+1
     except ValueError as msg:
         print(msg)
