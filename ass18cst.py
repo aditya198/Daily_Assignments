@@ -89,16 +89,3 @@ If you're adding meat, add it now too. Again, chop the pieces up small enough to
      </article>
    </body>
 </html>
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
